@@ -1,4 +1,4 @@
-package hash_map_dictionary;
+package hash_map;
 
 import java.util.HashMap;
 import java.util.Map;

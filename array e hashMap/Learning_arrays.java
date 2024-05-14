@@ -1,4 +1,4 @@
-package Learning;
+package hash_map;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,10 +16,12 @@ public class Learning_arrays {
         list.add("João");
         list.add("Jonias");
 
+        // Quantidade de pessoas inseridas na lista
         System.out.println(list.size());
 
         System.out.println("\n===================\n");
 
+        //printando a lista, a partir do FOR:
         for(String x : list) {
             System.out.println(x);
         }
@@ -43,31 +45,5 @@ public class Learning_arrays {
         String name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
         System.out.println(name);
     }
-
-
-/* adaptar este código ao de cima
-
-Scanner scanner = new Scanner(System.in);
-        ArrayList<String> arrayList = new ArrayList<>();
-
-        System.out.print("Quantos nomes você deseja adicionar ao ArrayList? ");
-        int numNames = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha pendente
-
-        for (int i = 0; i < numNames; i++) {
-            System.out.print("Digite o nome " + (i + 1) + ": ");
-            String name = scanner.nextLine();
-            arrayList.add(name);
-        }
-
-        System.out.println("Nomes inseridos no ArrayList:");
-        for (String name : arrayList) {
-            System.out.println(name);
-        }
-
-        // Não se esqueça de fechar o Scanner quando não for mais necessário.
-        scanner.close();
-
-    */
-
+    
 }
