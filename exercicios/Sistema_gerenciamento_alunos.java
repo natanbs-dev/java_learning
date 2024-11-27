@@ -17,7 +17,10 @@ public class Sistema_gerenciamento_alunos {
             nomes[i] = scanner.next();
 
             System.out.print("Digite a primeira nota: ");
+            //scanei
             notas1[i] = scanner.nextDouble();
+
+
 
             System.out.print("Digite a segunda nota: ");
             notas2[i] = scanner.nextDouble();
