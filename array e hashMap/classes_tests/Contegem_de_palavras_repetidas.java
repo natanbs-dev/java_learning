@@ -3,7 +3,7 @@ package hash_map.classes_tests;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Contagem_de_uma_mesma_palavra {
+public class Contegem_de_palavras_repetidas {
     public static void main(String[] args) {
         String sentence = "O gato está no telhado e o cachorro também está no telhado";
         String[] words = sentence.split(" ");
