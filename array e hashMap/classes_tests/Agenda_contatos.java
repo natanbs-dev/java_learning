@@ -1,4 +1,4 @@
-package Exercices_complexos;
+package hash_map.classes_tests;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package hash_map;
+package hash_map.classes_tests;
 
 import java.util.HashMap;
 import java.util.Map;
